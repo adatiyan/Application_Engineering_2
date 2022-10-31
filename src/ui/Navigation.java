@@ -146,7 +146,6 @@ public class Navigation extends javax.swing.JPanel {
 
         labelLogo.setFont(new java.awt.Font("Segoe UI Symbol", 1, 18)); // NOI18N
         labelLogo.setForeground(new java.awt.Color(0, 153, 153));
-        labelLogo.setText("H2O");
 
         btnLogout.setText(" logout");
         btnLogout.addActionListener(new java.awt.event.ActionListener() {
@@ -393,7 +392,7 @@ public class Navigation extends javax.swing.JPanel {
                 .addComponent(btnEncountCreate)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnEncountView)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 206, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 228, Short.MAX_VALUE)
                 .addComponent(btnLogout)
                 .addGap(53, 53, 53))
         );

@@ -86,7 +86,6 @@ public class DoctorNav extends javax.swing.JPanel {
 
         labelLogo.setFont(new java.awt.Font("Segoe UI Symbol", 1, 18)); // NOI18N
         labelLogo.setForeground(new java.awt.Color(0, 153, 153));
-        labelLogo.setText("H2O");
 
         btnCreateVital.setText("Encounter");
         btnCreateVital.addActionListener(new java.awt.event.ActionListener() {
@@ -116,7 +115,7 @@ public class DoctorNav extends javax.swing.JPanel {
                             .addComponent(btnCreateVital)
                             .addComponent(jLabel3)
                             .addComponent(btnLogout))
-                        .addGap(0, 5, Short.MAX_VALUE)))
+                        .addGap(0, 36, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -130,7 +129,7 @@ public class DoctorNav extends javax.swing.JPanel {
                 .addComponent(lblName)
                 .addGap(18, 18, 18)
                 .addComponent(btnCreateVital)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 396, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 418, Short.MAX_VALUE)
                 .addComponent(btnLogout)
                 .addGap(49, 49, 49))
         );

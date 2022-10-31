@@ -68,7 +68,7 @@ public class LoginPanel extends javax.swing.JPanel {
         this.vitalSignsStore = vitalSignsStore;
         this.patientStore = patientStore;
         
-        String[] userRoles = {"System Admin", "Community Admin", "Hospital Admin", "Doctor", "Person", "SUDO" };
+        String[] userRoles = {"System Admin", "Community Admin", "Hospital Admin", "Doctor", "Person" };
         comboRole.setModel(new DefaultComboBoxModel<>(userRoles));
  
     }
